@@ -3,6 +3,8 @@ name: Regression
 on:
   push:
     branches:
+      - rosetta-2
+      - rosetta
       - master
   pull_request:
   workflow_dispatch:
